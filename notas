@@ -16,3 +16,5 @@ synclient  TapButton3=2
 # / was on /dev/sda1 during installation
 UUID=d4adb2b8-3cb7-4922-9dac-7d5c534a5c0f /               ext4    errors=remount-ro,noatime,discard 0       1
 inotifywait -r -m .
+
+apt-get install vboot-utils
